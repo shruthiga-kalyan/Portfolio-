@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Portfolio
+        </title>
+
+        <style>        
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Merriweather&family=Playfair+Display&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+            body
+            {
+                
+                font-family: 'Montserrat', sans-serif;
+                background-color:#000000;
+                color:aliceblue;
+            }
+            .side{
+                background-color: #222222;
+            }
+            .nav-bar
+            {
+                background-color: #222222;
+                height: 100%;
+                margin-top: 10px;
+                position: fixed;
+            }
+
+            #main
+            {
+                
+                background-color:#0e0e0e;
+                
+            }
+            .profile-img
+            {
+                opacity:0.77;
+                
+            }
+
+            
+
+            ul{
+                overflow: auto;
+                list-style-type: none;                
+                padding: 0;
+                margin:0;
+                width: 20%;
+                height: 100%;
+                position:fixed;
+                padding : 12px 24px;
+                font-size: 20px;
+                            
+            }
+
+            .home
+            {
+                width:170px;
+            }
+
+            li a
+            {                
+                display: flex;
+                flex-direction: column;
+                color: rgb(249, 245, 245);
+                height: 70px;
+                margin: 0px;
+                width:170px;                
+                text-decoration: none;
+                justify-content: center;
+                flex-wrap: nowrap;
+                align-content: space-around;
+                align-items: stretch;
+                white-space: normal;
+
+            }
+
+            li a:hover
+            {
+                width:150px;
+                background-color:#505050;
+                color:white;
+                transition :0.7s;
+            }
+            
+            li a:active
+            {
+                box-shadow:#505050;
+            }
+            
+            .name
+            {
+                font-weight: 400;
+                margin:0px 40px 25px 25px;
+                font-size:50px;
+                font-size: 15px;
+                text-align: center;
+                margin-left:15%;
+                text-align: center;
+                text-align: justify;
+                
+            }
+
+            .homepg
+            {
+                font-family: "Montserrat", sans-serif;
+                text-align: justify;
+                font-size: 20px;
+                line-height: 35px;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-left:20%;
+                margin-right: 15%;
+            }
+
+            .button {
+                display: inline-block;
+                border-radius: 4px;
+                border: none;
+                color: #FFFFFF;
+                background-color: #505050;
+                padding: 20px;
+                width: 200px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin: 5px;
+                }
+
+            .button span
+                {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+                }
+
+            .button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+                }
+
+            .button:hover span {
+                padding-right: 25px;
+                }
+
+            .button:hover span:after {
+                opacity: 1;
+                right: 0;
+                }
+
+            .form
+                {
+                    width: 100%;
+
+                }
+            
+        </style>
+
+    
+        <link type="text/css" ref="stylesheet" href="design.css">
+    </head>
+
+    <body>
+        
+        <div class="nav-bar">
+        <div class="profile-img">
+            <img src="girl.jfif" >
+            </div>
+                <ul>
+                    <li>
+                        <a href="#home" >
+                            ABOUT
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#skill" >
+                            SKILLS
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#resume" >
+                            RESUME
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#con" >
+                            CONTACT
+                        </a> 
+                    </li>
+                </ul>
+
+        </div>
+        
+        <div class="top" id="main"> 
+            <header class="name" id="home">
+            <h1 style="font-family: 'Dancing Script', cursive; font-size: 700%;">Shruthiga Kalyanasundaram.</h1>
+                            <br><br>
+            </header>
+
+    <div class="homepg">
+
+        <div class="intro" id="about">
+            <h2 >MY NAME </h2>
+            <p class ="intro-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Egestas maecenas pharetra convallis posuere. Praesent elementum facilisis leo vel fringilla est. Scelerisque in dictum non consectetur a.
+                Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Lacus luctus accumsan tortor posuere ac ut. Pharetra pharetra massa
+                massa ultricies mi quis hendrerit. Blandit volutpat maecenas volutpat blandit aliquam. Aliquam nulla facilisi cras fermentum odio
+                eu feugiat pretium nibh. Scelerisque viverra mauris in aliquam sem fringilla ut. Integer enim neque volutpat ac tincidunt vitae semper quis. 
+                Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Arcu bibendum at varius vel.
+                <br><br><br><br>
+        </p>
+    </div>
+
+
+    
+    <div class="skills" id="skill">
+        <h3>
+            MY SKILLS
+        </h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Egestas maecenas pharetra convallis posuere. Praesent elementum facilisis leo vel fringilla est. Scelerisque in dictum non consectetur a.
+        Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Lacus luctus accumsan tortor posuere ac ut. Pharetra pharetra massa
+        massa ultricies mi quis hendrerit.
+        <br>
+        <br>
+        <br>
+
+        
+    </div>
+    
+    <div id="resume" >
+        <h3>
+            RESUME
+        </h3>
+        <button class="button"><span> Download Resume</span> </button>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <div class="contact" id="con">
+        <h3>
+            CONTACT ME
+        </h3>
+        <p><i class="contact-me"></i>Coimbatore , Tamil Nadu</p>
+        <p><i class="email-me"></i>abc@gmail.com</p>
+        <p><i class="call-me"></i>+91 76348734687</p>
+    </div>  
+        </div>
+    </div>
+    </body>
+    </html>
